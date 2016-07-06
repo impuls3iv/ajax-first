@@ -38,10 +38,10 @@ Each time you use one of these paths, you will have to use the fully-qualified U
 ### Knowledge Check
 In your browser's address bar, type the "root path" of the server we have setup at http://first-ajax-api.herokuapp.com/, and hit enter. Inspect the request in the Network tab by clicking on it.
 
-1. What HTTP method did your browser use to make the request?
-2. How many milliseconds did it take your browser to complete it?
-3. What HTTP status code did the server return? What does that mean?
-4. Was this an AJAX/Asynchronous request or a normal Synchronous request?
+1. What HTTP method did your browser use to make the request? GET
+2. How many milliseconds did it take your browser to complete it? 52ms
+3. What HTTP status code did the server return? What does that mean? 200 OK
+4. Was this an AJAX/Asynchronous request or a normal Synchronous request? Synchronous
 
 ## Step 1 - Your First AJAX Request
 We're going to use jQuery to make our AJAX requests. A flexible, and powerful way to do this is using the `ajax` function inside jQuery. To invoke the `ajax` function, you call it on the `$` object, and pass in a JavaScript object as an argument. Every time we make an AJAX request, that object will have __4__ main attributes.
