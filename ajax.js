@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  /* Your code goes here */
+  /* Your connnde goes here */
   $('#ajaxy').on('click', function(){
     $.ajax({
       url: "http://first-ajax-api.herokuapp.com/",
